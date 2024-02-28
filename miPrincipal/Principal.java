@@ -14,6 +14,8 @@ public class Principal {
             System.out.println("1) LADRILLOS");
             System.out.println("2) FACTORIAL");
             System.out.println("3) NATURALES");
+            System.out.println("4) SUMA DIGITOS");
+            System.out.println("5) ALFABETO");
             System.out.println("        ");
             System.out.println("0) SALIR");
             System.out.print("Selecciona opción:");
@@ -25,12 +27,16 @@ public class Principal {
                     break;
                 case 2:
                     AppFactorial.menu();
-
+                    break;
                 case 3:
                     AppNaturales.menu();
-
-                    case 4:
+                    break;
+                case 4:
                     AppSumaDigitas.menu();
+                    break;
+                case 5:
+                    AppAlfabeto.menu();
+                    break;
                 case 0:
                     System.out.println("ADIOS!");
                     consola.close();
