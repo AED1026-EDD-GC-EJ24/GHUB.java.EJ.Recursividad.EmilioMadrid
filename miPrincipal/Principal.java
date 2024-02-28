@@ -16,6 +16,7 @@ public class Principal {
             System.out.println("3) NATURALES");
             System.out.println("4) SUMA DIGITOS");
             System.out.println("5) ALFABETO");
+            System.out.println("6) MCD");
             System.out.println("        ");
             System.out.println("0) SALIR");
             System.out.print("Selecciona opción:");
@@ -36,6 +37,9 @@ public class Principal {
                     break;
                 case 5:
                     AppAlfabeto.menu();
+                    break;
+                case 6:
+                    AppMaximoComunDivisor.menu();
                     break;
                 case 0:
                     System.out.println("ADIOS!");
