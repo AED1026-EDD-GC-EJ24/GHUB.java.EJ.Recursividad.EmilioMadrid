@@ -1,9 +1,13 @@
 ./miPrincipal/AppMaximoComunDivisor.java
 ./miPrincipal/AppAlfabeto.java
 ./miPrincipal/Principal.java
+./miPrincipal/AppHanoi.java
 ./miPrincipal/AppLadrillos.java
 ./miPrincipal/AppFactorial.java
+./miPrincipal/AppFibRecursivode40a50.java
+./miPrincipal/AppFibonacci.java
 ./miPrincipal/AppBusquedaBinaria.java
+./miPrincipal/Performance.java
 ./miPrincipal/AppNaturales.java
 ./miPrincipal/AppSumaDigitas.java
 ./miTest/AppTest.java
