@@ -4,7 +4,7 @@ import java.util.Hashtable;
 import java.util.Scanner;
 
 public class AppFibonacci {
-
+private static long cont;
     public static void menu() {
         System.out.println("**************************");
         System.out.println("    Serie de fibonacci    ");
@@ -12,7 +12,9 @@ public class AppFibonacci {
         Scanner entrada = new Scanner(System.in);
         System.out.print("Ingrese un valor: ");
         int n = entrada.nextInt();
+        
         double f = fibonacciIte(n);
+        
        
     }
 
@@ -34,6 +36,7 @@ public class AppFibonacci {
         } else {
             f = fibonacciRec(n - 1) + fibonacciRec(n - 2);
         }
+        return f;
     }
 
     static long setContador() {

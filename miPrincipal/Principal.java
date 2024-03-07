@@ -17,7 +17,12 @@ public class Principal {
             System.out.println("4) SUMA DIGITOS");
             System.out.println("5) ALFABETO");
             System.out.println("6) MCD");
-            System.out.println("        ");
+            System.out.println("7) FIBONACCI");
+            System.out.println("8) ORDENAMIENTO SELECCION ");
+            System.out.println("9) TORRES DE HANOI");
+            System.out.println("10) SERIE DE FIBONACCI");
+            System.out.println("11) PERFORMANCE SERIE FIBONACCI");
+            System.out.println("12) ORDENAMIENTO POR MEZCLAS");
             System.out.println("0) SALIR");
             System.out.print("Selecciona opción:");
             opc = consola.nextInt();
@@ -40,6 +45,21 @@ public class Principal {
                     break;
                 case 6:
                     AppMaximoComunDivisor.menu();
+                    break;
+                case 8:
+                    AppFibonacci.menu();
+                    break;
+                case 9:
+                    AppFibonacci.menu();
+                    break;
+                case 10:
+                    AppFibonacci.menu();
+                    break;
+                case 11:
+                    AppFibonacci.menu();
+                    break;
+                case 12:
+                    AppFibonacci.menu();
                     break;
                 case 0:
                     System.out.println("ADIOS!");
